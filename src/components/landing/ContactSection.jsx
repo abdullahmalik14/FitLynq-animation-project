@@ -104,8 +104,10 @@ export const ContactSection = () => {
             <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
             
             {status === 'success' ? (
+
               <div className="bg-green-500/10 border border-green-500/20 rounded-xl p-6 text-center">
                 <CheckCircle2 className="w-12 h-12 text-green-500 mx-auto mb-4" />
+               
                 <h4 className="text-xl font-bold text-green-500 mb-2">Message Sent!</h4>
                 <p className="text-gray-400 mb-6">Thank you for reaching out. We'll get back to you shortly.</p>
                 <button 
